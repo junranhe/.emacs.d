@@ -24,7 +24,7 @@
 (yas-global-mode 1)
 ;(yas-load-directory "~/.emacs.d/snippets")
 ; here you may need to change the version number after upgrading yasnippet.
-(yas-load-directory "~/.emacs.d/elpa/yasnippet-20151126.518/snippets")
+(yas-load-directory "~/.emacs.d/elpa/yasnippet-20151126.2133/snippets")
 
 ;;; autopair
 (require 'autopair)
@@ -440,8 +440,8 @@
             (setq org-log-done t)))
 
 ;;; auctex
-(load "auctex.el" nil t t)
-(load "preview-latex.el" nil t t)
+;(load "auctex.el" nil t t)
+;(load "preview-latex.el" nil t t)
 
 ;;; company-auctex
 (require 'company-auctex)

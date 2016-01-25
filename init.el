@@ -8,13 +8,13 @@
 (column-number-mode t)
 ;;; remote use the following theme and color settings
 ;(load-theme 'manoj-dark)
-;(set-background-color "gray25")
+(set-background-color "gray25")
 (show-paren-mode t)
 (setq make-backup-files nil)
 (fset 'yes-or-no-p 'y-or-n-p)
-;(set-frame-font "Monospace-14")
+(set-frame-font "Monospace-14")
 ;(set-frame-font "Inconsolata-g-14")
-(set-frame-font "SourceCodePro-14")
+;(set-frame-font "SourceCodePro-14")
 ;(set-frame-font "LiberationMono-14")
 ;(set-default-font "Inconsolata-14")
 (tool-bar-mode 0)
@@ -69,7 +69,7 @@
 
 (global-subword-mode)                   ;navigate camelCase word!
 ;(load-theme 'sanityinc-solarized-light t)
-(load-theme 'sanityinc-tomorrow-eighties t)
+;(load-theme 'sanityinc-tomorrow-eighties t)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; some skills                                                               ;;
